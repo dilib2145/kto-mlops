@@ -13,7 +13,6 @@ test_directory = input_directory / "test"
 model_path = output_directory / "model.keras"
 model_plot_path = output_directory / "model_plot.png"
 
-
 class TrainTest(unittest.TestCase):
     def test_train(self):
         if output_directory.is_dir():
