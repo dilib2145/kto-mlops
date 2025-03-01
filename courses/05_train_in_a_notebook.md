@@ -1506,7 +1506,7 @@ python -m unittest cats_dogs_other.train.steps.tests.extraction.test_extraction
 export MLFLOW_S3_ENDPOINT_URL=http://minio-api-balba-dev.apps.sandbox-m3.666.p1.openshiftapps.com
 export AWS_ACCESS_KEY_ID=minio
 export AWS_SECRET_ACCESS_KEY=minio123
-python ./cats_dogs_other/train/train.py --split_ratio_train=0.8 --split_ratio_evaluate=0.1 --split_ratio_test=0.1 --batch_size=64 --epochs=4 --working_dir="./cats_dogs_other/train/dist"
+python ./cats_dogs_other/train/train.py --split_ratio_train=0.8 --split_ratio_eplit_ratio_test=0.1 --batch_size=64 --epochs=4 --working_dir="./cats_dogs_other/train/dist"
 ```
 - Tout fonctionne toujours parfaitement ! Vous venez peut-être de faire votre premier mock et votre premier wrapper ! Bravo !!! :)
 
